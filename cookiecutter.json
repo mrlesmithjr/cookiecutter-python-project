@@ -1,0 +1,16 @@
+{
+  "project_name": "Enter Python project name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "description": "Enter description of project",
+  "version": "0.1.0",
+  "author": "Your Name",
+  "company": "Enter company name",
+  "email": "me@example.com",
+  "website": "http://example.com",
+  "twitter": "example",
+  "license": ["MIT", "BSD-3", "Apache Software License 2.0"],
+  "year": "2020",
+  "github_username": "Enter your GitHub username",
+  "travis_username": "Enter your Travis CI username",
+  "default_ci_badges": ["Y", "N"]
+}
