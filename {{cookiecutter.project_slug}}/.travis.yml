@@ -1,10 +1,16 @@
 ---
-sudo: required
 language: python
-services:
-  - docker
-before_install:
-  - sudo apt-get -qq update
-install:
+
+python:
+  - 3.5
+  - 3.6
+  - 3.7
+
+before_script:
+  - python --version
   - pip3 install -r requirements.txt
-script: []
+  - pip3 install flake8 pylint
+
+script:
+  - flake8 {{ cookiecutter.project_slug }}/*.py
+  - pylint {{ cookiecutter.project_slug }}/*.py
