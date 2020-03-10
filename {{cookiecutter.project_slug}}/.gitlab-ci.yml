@@ -12,9 +12,9 @@ stages:
 flake8:
   stage: linting
   script:
-    - flake8 {{ cookiecutter.project_slug }}/*.py
+    - flake8 {{ cookiecutter.project_slug }}/
 
 pylint:
   stage: linting
   script:
-    - pylint {{ cookiecutter.project_slug }}/*.py
+    - pylint {{ cookiecutter.project_slug }}/

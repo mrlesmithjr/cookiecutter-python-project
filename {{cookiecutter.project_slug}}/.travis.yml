@@ -12,5 +12,5 @@ before_script:
   - pip3 install flake8 pylint
 
 script:
-  - flake8 {{ cookiecutter.project_slug }}/*.py
-  - pylint {{ cookiecutter.project_slug }}/*.py
+  - flake8 {{ cookiecutter.project_slug }}/
+  - pylint {{ cookiecutter.project_slug }}/

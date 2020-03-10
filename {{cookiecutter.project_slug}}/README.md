@@ -7,7 +7,7 @@
 
 ### GitHub Actions
 
-![Molecule Test](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/workflows/Molecule%20Test/badge.svg)
+![Python Test](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/workflows/Python%20Test/badge.svg)
 
 ### Travis CI
 

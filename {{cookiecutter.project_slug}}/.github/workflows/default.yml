@@ -26,7 +26,7 @@ jobs:
           pip3 install flake8 pylint
       - name: flake8
         run: |
-          flake8 {{ cookiecutter.project_slug }}/*.py
+          flake8 {{ cookiecutter.project_slug }}/
       - name: pylint
         run: |
-          pylint {{ cookiecutter.project_slug }}/*.py
+          pylint {{ cookiecutter.project_slug }}/

@@ -10,7 +10,7 @@
   "twitter": "example",
   "license": ["MIT", "BSD-3", "Apache Software License 2.0"],
   "year": "2020",
-  "github_username": "Enter your GitHub username",
-  "travis_username": "Enter your Travis CI username",
+  "github_username": "{{ cookiecutter.twitter }}",
+  "travis_username": "{{ cookiecutter.twitter }}",
   "default_ci_badges": ["Y", "N"]
 }
