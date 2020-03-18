@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
         with:
-          path: {{ cookiecutter.project_slug }}
+          path: {{cookiecutter.project_parent_dir}}
 {%- raw %}
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
@@ -26,7 +26,7 @@ jobs:
           pip3 install flake8 pylint
       - name: flake8
         run: |
-          flake8 {{ cookiecutter.project_slug }}/
+          flake8 {{cookiecutter.project_slug}}/
       - name: pylint
         run: |
-          pylint {{ cookiecutter.project_slug }}/
+          pylint {{cookiecutter.project_slug}}/

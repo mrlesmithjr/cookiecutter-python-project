@@ -1,6 +1,7 @@
 {
   "project_name": "Enter Python project name",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_parent_dir": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
   "description": "Enter description of project",
   "version": "0.1.0",
   "author": "Your Name",
@@ -10,7 +11,8 @@
   "twitter": "example",
   "license": ["MIT", "BSD-3", "Apache Software License 2.0"],
   "year": "2020",
-  "github_username": "{{ cookiecutter.twitter }}",
-  "travis_username": "{{ cookiecutter.twitter }}",
+  "github_username": "{{cookiecutter.twitter}}",
+  "gitlab_username": "{{cookiecutter.twitter}}",
+  "travis_username": "{{cookiecutter.twitter}}",
   "default_ci_badges": ["Y", "N"]
 }

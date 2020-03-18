@@ -1,1 +1,1 @@
-{{ cookiecutter.author }} - {{ cookiecutter.email }}
+{{cookiecutter.author}} - {{cookiecutter.email}}

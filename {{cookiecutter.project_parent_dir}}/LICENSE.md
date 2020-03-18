@@ -1,7 +1,7 @@
 {%- if cookiecutter.license == "MIT" -%}
 MIT License
 
-Copyright (c) {{ cookiecutter.year }} {{ cookiecutter.author }}
+Copyright (c) {{cookiecutter.year}} {{cookiecutter.author}}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ SOFTWARE.
 
 BSD 3-Clause License
 
-Copyright (c) {{ cookiecutter.year }}, {{ cookiecutter.author }} All rights reserved.
+Copyright (c) {{cookiecutter.year}}, {{cookiecutter.author}} All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
