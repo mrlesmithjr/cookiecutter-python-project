@@ -1,4 +1,4 @@
-"""Console script for {{cookiecutter.project_slug}}."""
+"""{{cookiecutter.project_slug}}/cli.py"""
 
 import argparse
 from {{cookiecutter.project_slug}}.release import __package_name__, __version__

@@ -1,4 +1,4 @@
-"""Provides main logger function."""
+"""{{cookiecutter.project_slug}}/logger.py"""
 
 import logging
 import os

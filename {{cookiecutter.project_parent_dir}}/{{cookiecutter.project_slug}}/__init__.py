@@ -1,1 +1,1 @@
-"""Main level package for {{cookiecutter.project_slug}}."""
+"""{{cookiecutter.project_slug}}/__init__.py"""
