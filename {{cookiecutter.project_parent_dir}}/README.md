@@ -1,5 +1,5 @@
 ---
-title: { { cookiecutter.project_slug } }
+title: {{cookiecutter.project_slug}}
 ---
 
 {{cookiecutter.description}}
