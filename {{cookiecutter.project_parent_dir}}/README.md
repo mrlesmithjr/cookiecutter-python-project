@@ -1,5 +1,5 @@
 ---
-title: {{cookiecutter.project_slug}}
+title: { { cookiecutter.project_slug } }
 ---
 
 {{cookiecutter.description}}
@@ -23,6 +23,10 @@ title: {{cookiecutter.project_slug}}
 - [requirements-dev.txt](requirements-dev.txt)
 
 ## Dependencies
+
+## Documentation
+
+Checkout [https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_parent_dir}}](https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_parent_dir}}) for project documentation.
 
 ## License
 
