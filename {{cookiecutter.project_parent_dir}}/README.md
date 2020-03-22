@@ -1,6 +1,4 @@
----
-title: {{cookiecutter.project_slug}}
----
+# {{cookiecutter.project_name}}
 
 {{cookiecutter.description}}
 {% if cookiecutter.default_ci_badges == "Y" %}
