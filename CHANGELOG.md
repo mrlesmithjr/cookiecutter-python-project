@@ -1,3 +1,9 @@
+commit ff85b422069f54b36141ab728b0efcd747e4ea05
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Sun Mar 22 14:30:45 2020 -0400
+
+    Fixed title page for README
+
 commit dac8427bdd964d51e54e554336f2348de875eb07
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Sat Mar 21 09:47:05 2020 -0400
