@@ -1,3 +1,13 @@
+commit a5db1778ea5234b1f6c17c12e0e985ea483532c1
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Wed Mar 25 01:39:24 2020 -0400
+
+    Added logging rotation
+    
+    This change implements logging rotation by default to ensure that any
+    logging for a project rotates at midnight. This will help minimize the
+    sizes of log files.
+
 commit ff85b422069f54b36141ab728b0efcd747e4ea05
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Sun Mar 22 14:30:45 2020 -0400
