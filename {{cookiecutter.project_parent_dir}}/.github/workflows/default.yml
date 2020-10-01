@@ -10,9 +10,10 @@ jobs:
         python-version: [3.5, 3.6, 3.7]
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
         with:
           path: {{cookiecutter.project_parent_dir}}
+          submodules: recursive
 {%- raw %}
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v1
