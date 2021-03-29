@@ -1,0 +1,22 @@
+{
+    "build": {
+        "args": {
+            "DEFAULT_PYTHON_VERSION": "3.9.2",
+            "USER_GID": "1000",
+            "USER_UID": "1000",
+            "USERNAME": "vscode",
+            "VARIANT": "bionic"
+        },
+        "dockerfile": "../Dockerfile"
+    },
+    "containerUser": "vscode",
+    "extensions": [
+		"hashicorp.terraform",
+		"ms-python.python",
+		"esbenp.prettier-vscode"
+	],
+    "settings": {
+        "python.pythonPath": "/home/vscode/.pyenv/versions/3.9.2/bin/python",
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
