@@ -1,0 +1,9 @@
+default_context:
+  role_name: python-example
+  role_slug: python-example
+  description: Example Python Project
+  author: Example User
+  company: Example
+  email: user@example.org
+  website: http://example.org
+  twitter: example
