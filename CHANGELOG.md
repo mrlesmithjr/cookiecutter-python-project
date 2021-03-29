@@ -1,3 +1,33 @@
+commit ac667386199010f257689ca2c1ffb26b5e6423da
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Mon Mar 29 09:43:39 2021 -0400
+
+    First commit for Poetry and validation testing
+    
+    Added Poetry functionality
+    
+    Added GitHub actions testing for cookiecutter
+
+commit c009e80896cc20afebd0c3de836931ab9242b11c
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Oct 1 11:31:47 2020 -0400
+
+    Added checkout step to latest to leverage submodules
+
+commit d02e28615410ef5f1feb0ac13fe7d2d14f138774
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Mon Aug 10 13:38:18 2020 -0400
+
+    Added Flake8 config
+    
+    - The only thing we have added so far is to exlude venv/ directory
+
+commit 8bf1d6fa60cbcb20b7223e8b4a3d97b89ef3e1d5
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu May 14 20:44:18 2020 -0400
+
+    Switching to pip-tools to manage Python reqs
+
 commit a5db1778ea5234b1f6c17c12e0e985ea483532c1
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Wed Mar 25 01:39:24 2020 -0400
