@@ -15,6 +15,10 @@
 		"ms-python.python",
 		"esbenp.prettier-vscode"
 	],
+    "runArgs": [
+        "-v",
+        "${localEnv:HOME}/.ssh:/home/vscode/.ssh:ro"
+    ],
     "settings": {
         "python.pythonPath": "/home/vscode/.pyenv/versions/3.7.10/bin/python",
         "terminal.integrated.shell.linux": "/bin/bash"
