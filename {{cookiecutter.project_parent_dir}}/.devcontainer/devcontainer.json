@@ -1,7 +1,7 @@
 {
     "build": {
         "args": {
-            "DEFAULT_PYTHON_VERSION": "3.9.2",
+            "DEFAULT_PYTHON_VERSION": "3.7.10",
             "USER_GID": "1000",
             "USER_UID": "1000",
             "USERNAME": "vscode",
@@ -15,8 +15,12 @@
 		"ms-python.python",
 		"esbenp.prettier-vscode"
 	],
+    "runArgs": [
+        "-v",
+        "${localEnv:HOME}/.ssh:/home/vscode/.ssh:ro"
+    ],
     "settings": {
-        "python.pythonPath": "/home/vscode/.pyenv/versions/3.9.2/bin/python",
+        "python.pythonPath": "/home/vscode/.pyenv/versions/3.7.10/bin/python",
         "terminal.integrated.shell.linux": "/bin/bash"
     }
 }
