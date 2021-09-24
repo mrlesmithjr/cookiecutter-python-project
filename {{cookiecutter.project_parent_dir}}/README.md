@@ -7,11 +7,11 @@
 
 ### GitHub Actions
 
-![Python Test](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_parent_dir}}/workflows/Python%20Test/badge.svg)
+![Python Test](https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_parent_dir}}/workflows/Default%20Tests/badge.svg)
 
 ### Travis CI
 
-[![Build Status](https://travis-ci.org/{{cookiecutter.travis_username}}/{{cookiecutter.project_parent_dir}}.svg?branch=master)](https://travis-ci.org/{{cookiecutter.travis_username}}/{{cookiecutter.project_parent_dir}})
+[![Build Status](https://travis-ci.com/{{cookiecutter.travis_username}}/{{cookiecutter.project_parent_dir}}.svg?branch=master)](https://travis-ci.com/{{cookiecutter.travis_username}}/{{cookiecutter.project_parent_dir}})
 
 {% endif %}
 
