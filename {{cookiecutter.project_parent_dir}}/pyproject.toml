@@ -14,8 +14,7 @@ mkdocs = "^1.1.2"
 pycodestyle = "^2.7.0"
 pylint = "^2.7.2"
 tox = "^3.23.0"
-pyats = "^21.2"
-robotframework = "^4.0"
+black = {version = "^20.8b1", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

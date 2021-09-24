@@ -1,4 +1,72 @@
-commit ac667386199010f257689ca2c1ffb26b5e6423da
+commit 7d9dcc7f31426dc16be2c3c6963d23269ffcccfb
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Fri Apr 23 21:39:00 2021 -0400
+
+    Updated default GitHub actions workflows
+    
+    - Leverage cache
+    - Add pre-commit
+    - Closes #13
+
+commit 415972af293effdf66cd02353e1c3644e886848a
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Fri Apr 23 21:11:16 2021 -0400
+
+    Added Probot configs, etc.
+    
+    - Closes #11
+
+commit e51f93a360730719fbb798d8276eb4f7a7acdc4c
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Wed Mar 31 22:29:52 2021 -0400
+
+    Added user's home/.ssh mount
+    
+    - This adds the user's home/.ssh directory as a volume mount in read
+      only
+    - Because the user's .gitconfig is copied into the running dev
+      container, certain configuration options for git repos can be
+      impacted. This will in most cases keep the user from having to manually
+      configure the .gitconfig in the container.
+    - Example is that if using ssh repos, the user's ssh keys may be
+      required anyways
+
+commit c785ecbda1a173aa1df6281d35eba0e3b1384b11
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Wed Mar 31 14:38:31 2021 -0400
+
+    Downgraded Python default version for devcontainer
+    
+    Forgot to change to Python 3.7.10 as default
+    
+    PyATS fails on Python > 3.8.x
+
+commit ce49171f9f4404af4f34a34a409c51ec1a5f03e3
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Wed Mar 31 11:27:28 2021 -0400
+
+    Updated Python requirements, etc.
+    
+    - pyats requires <=3.8 currently. Changed to 3.7.x
+    - Added robotframework for testing
+    - exported requirements w/out hashes
+      - Hashes causing issues w/pip radmomly
+
+commit 0618e29f6786138ae1c094bdc2cc0af347409696
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Mon Mar 29 16:03:07 2021 -0400
+
+    Added Python virtual envs to ignore
+
+commit f235a11e5b225f4c0e25ea60a8798bac43feb088
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Mon Mar 29 12:18:57 2021 -0400
+
+    First commit of devcontainer
+    
+    This is at least a start for VSCode dev container usage
+
+commit fd59e5134d9d6cb5e61d107bbd5ef020ca86fefa
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Mon Mar 29 09:43:39 2021 -0400
 
@@ -7,6 +75,14 @@ Date:   Mon Mar 29 09:43:39 2021 -0400
     Added Poetry functionality
     
     Added GitHub actions testing for cookiecutter
+
+commit 9f2ce9b3f4114b0dd45af0a36748681395a6f986
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Mon Mar 29 10:41:08 2021 -0400
+
+    Updated repo usage
+    
+    Updated example project creation to show usage
 
 commit c009e80896cc20afebd0c3de836931ab9242b11c
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>

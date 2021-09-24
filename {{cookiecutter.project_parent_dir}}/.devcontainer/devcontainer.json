@@ -1,26 +1,31 @@
 {
+    "name": "Python 3",
     "build": {
+        "dockerfile": "../Dockerfile",
+        // "context": "..",
+        //Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8
         "args": {
-            "DEFAULT_PYTHON_VERSION": "3.7.10",
-            "USER_GID": "1000",
-            "USER_UID": "1000",
-            "USERNAME": "vscode",
-            "VARIANT": "bionic"
-        },
-        "dockerfile": "../Dockerfile"
+            "INSTALL_NODE": "false",
+            "NODE_VERSION": "lts/*",
+            "VARIANT": "3.8"
+        }
     },
-    "containerUser": "vscode",
-    "extensions": [
-		"hashicorp.terraform",
-		"ms-python.python",
-		"esbenp.prettier-vscode"
-	],
+    "remoteUser": "vscode",
     "runArgs": [
         "-v",
         "${localEnv:HOME}/.ssh:/home/vscode/.ssh:ro"
     ],
     "settings": {
-        "python.pythonPath": "/home/vscode/.pyenv/versions/3.7.10/bin/python",
-        "terminal.integrated.shell.linux": "/bin/bash"
-    }
+        "python.linting.flake8Enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black"
+    },
+    "extensions": [
+        "ms-python.python",
+        "github.vscode-pull-request-github",
+        "davidanson.vscode-markdownlint",
+        "njpwerner.autodocstring",
+        "redhat.vscode-yaml"
+    ],
 }
